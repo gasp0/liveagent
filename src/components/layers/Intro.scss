@@ -1,0 +1,63 @@
+.Intro {
+  text-align: left;
+  padding: 5% 0;
+
+  .heading {
+    margin: 10% 0% 10% 5%;
+  }
+  h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 1.2em;
+    color: var(--primary-color);
+  }
+  h1 strong {
+    color: var(--secondary-color);
+  }
+  h3 {
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .chatSection {
+    background: #f5f5f5 url("../../assets/img/header.jpg") 50% center no-repeat;
+    background-size: cover;
+    border-radius: 70px 0px 0px 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+  }
+
+  @media (max-width: 767.98px) {
+    .chatSection {
+      display: none;
+    }
+    .heading {
+      text-align: center;
+      padding: 0;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    h3 {
+      text-align: center;
+      font-size: 20px;
+    }
+    .heading {
+      margin: 10% 0%;
+    }
+  }
+
+  @media (max-width: 500.98px) {
+    h1 {
+      font-size: 34px;
+    }
+  }
+}

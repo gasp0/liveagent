@@ -1,0 +1,20 @@
+.pricing {
+  background: #f5f5f5 url("../../assets/img/glass_efekt.png") center center
+    no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 5em 0 0;
+
+  .col-md-6 {
+    margin-bottom: 5em;
+  }
+  .col-md-6:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .pricing {
+    padding: 5em 0 5em 0;
+  }
+}

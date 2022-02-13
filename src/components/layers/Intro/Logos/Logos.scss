@@ -1,0 +1,21 @@
+.logos {
+  padding: 1em 0;
+  p {
+    font-family: Poppins;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 2.5em;
+    color: #8c9097;
+  }
+  img {
+    width: 20%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .logos {
+    padding: 2em;
+  }
+}

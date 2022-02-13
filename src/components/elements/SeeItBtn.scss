@@ -1,0 +1,21 @@
+.seeIt {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 1em 3.5em;
+  cursor: pointer;
+  margin: 1em 0;
+  display: inline-block;
+}
+
+.seeIt:hover {
+  color: var(--primary-color);
+}
+
+.seeIt:hover img {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}

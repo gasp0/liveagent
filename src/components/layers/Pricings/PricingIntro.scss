@@ -1,0 +1,33 @@
+.PricingIntro {
+  text-align: left;
+  padding: 0 3em 5em 0;
+  h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    /* or 137% */
+
+    color: #050505;
+  }
+  small {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3em;
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: #fa9531;
+  }
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #050505;
+  }
+}
+@media (max-width: 575.98px) {
+  .PricingIntro {
+    text-align: center;
+    padding: 0 0 5em 0;
+  }
+}
