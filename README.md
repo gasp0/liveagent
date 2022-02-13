@@ -1,4 +1,4 @@
-### Quality UNIT TEST TASK
+# Quality UNIT TEST TASK
 
 My testing taks
 
@@ -7,7 +7,7 @@ My testing taks
 VSCODE with ESLint and Prettier
 HTML SCSS JAVASCRIPT REACT
 
-# REACT modules & HOOKS:
+### REACT modules & HOOKS:
 
     1. REACT BOOTSTRAP (to help with responsivity)
     2. REACT TRANSITION GROUP
