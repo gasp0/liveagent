@@ -1,3 +1,5 @@
+// Just stored object when JSON wont be availible
+
 const msgsTest = [
   [
     {

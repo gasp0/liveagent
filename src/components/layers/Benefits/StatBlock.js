@@ -6,19 +6,17 @@ import useOnScreen from "../../elements/useOnScreen";
 import CountUp from "react-countup";
 
 const StatBlock = ({ number, title, desc, unit }) => {
-  // when counter enters viewpoint
-  const ref = useRef();
-  const isVisible = useOnScreen(ref);
-
-  // counter animation
-  // Selector
+  // ref to each number that would be animated
+  const countToAnimate = useRef();
+  // when this number enters viewpoint
+  const isVisible = useOnScreen(countToAnimate);
 
   return (
     <div className="statBlock">
       <Container>
         <Row>
           <Col xl="4" lg="6" md="6" sm="6" className="numberBlock">
-            <h4 className="number" ref={ref}>
+            <h4 className="number" ref={countToAnimate}>
               {isVisible && (
                 <CountUp
                   start={0}

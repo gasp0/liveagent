@@ -4,7 +4,7 @@ import read from "./read.svg";
 import "./Message.scss";
 
 const Message = ({ key, who, face, text }) => {
-  //chat specific
+  //chat is different for agent and for customer
   const typing = () => {
     if (who === "agent") {
       return (
