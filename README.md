@@ -16,5 +16,5 @@ HTML SCSS JAVASCRIPT REACT
 ### Some extra features
 
 - Chat application with transition effect
-- After rendering a site one of four sample chats is fetched from external server and embeded to site :)
+- After rendering a site one of four sample chats is fetched from external server and embeded to site (you can resfresh to read them all :) )
 - When numbers in benefits enter viewport, count up animation is fired :)
