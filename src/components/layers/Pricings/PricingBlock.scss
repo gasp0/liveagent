@@ -4,7 +4,7 @@
   .prod {
     padding: 12% 15%;
     text-align: left;
-    background: #ffffff;
+    background: #fff;
     box-shadow: 5px 10px 90px -10px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     display: flex;
@@ -38,7 +38,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 3em;
-    color: #050505;
+    color: var(--primary-color);
   }
 
   small {

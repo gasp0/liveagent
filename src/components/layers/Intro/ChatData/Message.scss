@@ -48,7 +48,6 @@
     justify-content: flex-end;
     align-items: flex-end;
     max-width: 65%;
-    //    background: #fa9531;
     background: var(--secondary-color);
     box-shadow: 9px 10px 25px rgba(0, 0, 0, 0.25);
     border-radius: 24px 24px 6px 24px;
@@ -65,24 +64,6 @@
   .seen {
     width: 1.5em;
     height: 1.5em;
-
     margin: 5px;
-  }
-
-  .msg-enter {
-    opacity: 0;
-    transform: scale(0.2);
-  }
-  .msg-enter-active {
-    opacity: 1;
-    transform: scaleX(1);
-    transition: all 200ms;
-  }
-  .msg-exit {
-    opacity: 1;
-  }
-  .msg-exit-active {
-    opacity: 0;
-    transition: opacity 200ms;
   }
 }
