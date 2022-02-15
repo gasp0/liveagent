@@ -1,6 +1,6 @@
 # Quality UNIT TEST TASK
 
-My testing taks
+My testing taks for quality unit
 
 ## Technologies used:
 
